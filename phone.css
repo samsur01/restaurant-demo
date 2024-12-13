@@ -1,0 +1,214 @@
+/* Default code's */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.containere{
+    max-width: 1280px;
+    margin: auto;
+}
+
+[class*='col-']{
+    width: 100%;
+}
+[class*='col-']{
+    float: left;
+    padding: 15px;
+}
+/* Default code's */
+
+/* Header part design starts from here */
+header{
+    background-color: #24a19c;
+    padding: 0 1%;
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 50px;
+}
+ 
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    padding:  0 20px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-radius: 10px;
+    background-color: rgba(0,0,0,.5) ;
+}
+
+/* Header part design ends from here */
+
+/* banar part design starts from here */
+#banar{
+    background-image: url("./images/banner-image.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banar-content{
+    text-align: center;
+    padding: 50px 10px;
+}
+.banar-content h2{
+    background-color:rgba(255,255,0,0.884) ;
+    margin: 15px auto;
+    width: 100%;
+    font-size: 3rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+.banar-content p{
+    width: 300px;
+    margin: 15px auto;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #15ad6e;
+}
+.btn{
+    width: 150px;
+    padding: 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #15ad6e;
+    color: white;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/* banar part design ends from here */
+
+/* about us design starts here */
+#about-us{
+    padding: 1%;
+}
+.about-content{
+    text-align: center;
+}
+.about-content h2{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.about-content p{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+/* about us design starts here */
+
+/* food menu */
+#menu-section{
+    padding: 1%;
+}
+.card-head{
+    text-align: center;
+}
+.card-head img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.card-des{
+    background-color: rgb(165,164,164);
+}
+.item-name{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.card-des > p{
+    font-size: 1rem;
+    padding:10px;
+    font-weight: bold;
+}
+.card{
+    transition: .4s;
+}
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* food menu ends */
+
+/* contact detail starts */
+#contact-details{
+    background-color:#595b83 ;
+    padding: 1%;
+}
+.contact-des{
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+.map{
+    width: 100%;
+    height: 250px;
+}
+.contact-des p, address{
+    font-size: 0.8rem;
+    padding: 10px 0;
+}
+/* contact details end */
+
+/* footer design starts here */
+footer{
+    background-color: #060930;
+    color: white;
+    padding: 1%;
+}
+footer p{
+    line-height: 30px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.social-icon{
+    text-align: center;
+}
+.icon{
+    color: white;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid white;
+    margin:  0 10px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 6px;
+    transition: .4s;
+}
+.icon:hover{
+    background-color: gray;
+    transform: scale(1.2);
+}
+/* footer design ends here */
